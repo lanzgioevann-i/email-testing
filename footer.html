@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+      <form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+      action="https://script.google.com/macros/s/AKfycbx_80d0jK_9bpPwJW47bfXVPL5j7RSvP0K7uEquOW8NCRQmpk_U/exec">
+       
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first-name" name="firstname" type="text" class="validate">
+          <label for="first-name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last-name" type="text"name="lastname"  class="validate">
+          <label for="last-name">Last Name</label>
+        </div>
+      </div>
+       
+        <button class="btn waves-effect waves-light">Submit
+          <i class="material-icons right">send</i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div style="display:none;" id="return-message">
+    <h2>Ulol gutom na ko</h2>
+  </div>
+  
+  
+	<script data-cfasync="false" type="text/javascript" src="js/email.js"></script>
